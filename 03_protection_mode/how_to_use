@@ -1,0 +1,3 @@
+bximage  
+mkfs.vfat -F 12 data.img 
+ndisasm -o 0x7c00 boot.bin > disboot.asm
