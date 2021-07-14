@@ -1,0 +1,4 @@
+bximage  
+mkfs.vfat -F 12 data.img 
+ndisasm -o 0x7c00 boot.bin > disboot.asm
+ndisasm -b 32 -o 0x9000 loader > disloader.txt
